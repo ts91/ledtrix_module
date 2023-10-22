@@ -1,0 +1,5 @@
+(version 1)
+
+(rule Castellated_NoEdgeClearance
+	(condition "A.Type == 'Pad'")
+	(constraint edge_clearance (min -1mm)))
